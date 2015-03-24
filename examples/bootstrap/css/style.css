@@ -1,0 +1,11 @@
+/*.row div {
+	height : 300px;
+	background: #333;
+}*/
+a.spoiler:before {
+	content: "[-] ";
+}
+
+a.spoiler.collapsed:before {
+	content: "[+] ";
+}
