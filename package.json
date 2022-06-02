@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp -R dist docs",
+    "build": "vite build && /bin/cp -rf dist/* docs",
     "serve": "vite preview"
   },
   "license": "MIT",
