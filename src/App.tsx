@@ -1,8 +1,9 @@
 import type { Component } from 'solid-js';
+import Main from './dashboard/Main';
 
 const App: Component = () => {
   return (
-    <p class="text-4xl text-green-700 text-center py-20">VitaliiDotsenko.com</p>
+    <Main/>
   );
 };
 
