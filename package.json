@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && /bin/cp -rf dist/* docs",
+    "build": "vite build && rm -rf docs/* && /bin/cp -rf dist/* docs && echo 'vitaliidotsenko.com' > docs/CNAME",
     "serve": "vite preview"
   },
   "license": "MIT",
